@@ -1,0 +1,268 @@
+:root{
+    --primary-color:#333333;
+    --secondary-color:gray;
+    --text-color: white;
+    --fonts:Rubik-Light.ttf;
+}
+
+*{
+    font-family: var(--fonts);
+    list-style: none;
+    text-decoration: none;
+ }
+  
+
+@font-face{
+    font-family: var(--fonts);
+    src: url("/Assets/Rubik/Rubik-Light.ttf");
+src:
+url("/Assets/Rubik/Rubik-Light.wof") format("woff"),
+url("/Assets/Rubik/Rubik-Light.otf") format("opentype"),
+url("/Assets/Rubik/Rubik-Light.svg#Rubik-Light") format("svg");   
+}
+
+.logo {
+    padding-right: 70px;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-family: var(--fonts);
+}
+
+.logo-paragraph {
+    font-size: small;
+    font-weight: bold;
+    color: red;
+}
+
+.logo-nav{
+    background-color: var(--text-color);
+}
+
+.navbar-gray{
+    background-color: var(--primary-color) ;
+}
+
+/* #nav-container{
+    position: relative;
+    top: 0;
+} */
+
+/* body{
+    position: relative;
+} */
+
+.navbar {
+    /* position: sticky;
+    top: 0; */
+    background-color: var(--secondary-color);
+
+}
+.body-bg{
+    background: rgba(44, 44, 44, 0.13);
+    overflow: hidden;
+    background-size: cover;
+}
+
+
+.navbar li a{
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.navbar .dropdown-menu{
+    background: var(--secondary-color);
+}
+
+/* .navbar .navbar-toggler-icon {
+    background-color: whitesmoke;
+} */
+
+
+.banner-card{
+    background-color: var(--secondary-color);
+    color: black;
+    box-shadow: 1px 5px whitesmoke;
+    opacity: .6;
+}
+
+.banner-card a{
+    color: black;
+}
+
+.card-header {
+    color: var(--text-color);
+}
+
+.card .list-group-item:hover{
+    background-color: #CCCCCC;
+}
+
+.card .list-group-item a:hover{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.Marquee{
+    display: flex;
+    background-color: rgb(131, 4, 4);
+}
+
+.Marquee a{
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.Marquee .marquee-btn {
+    background-color: red;
+    color: var(--text-color);
+}
+
+.ftr-jumbotron{
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    height: 70vh;
+}
+
+.ftr-text{
+    text-align: center;
+}
+
+#body-cards{
+    margin: 50px auto;
+    /* width: 100%; */
+    /* background-color: var(--secondary-color); */
+}
+
+.btn{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+.body-card-item{
+     text-align: center;
+}
+
+.body-card-item .card-title{
+    color: rgb(131, 4, 4);
+}
+
+.card-title{
+    font-weight: bolder;
+}
+
+#form-bg{
+    background: #F8FAFC;
+}
+
+#contact-cards{
+    /* display: flex; */
+    width: 100%;
+    /* margin: 20px 90px; */
+    font-weight: lighter;
+    margin-top: 30px;
+    /* padding: 10px; */
+}
+
+
+.contact-text h3{
+    text-align: center;
+    padding: 30px 0;
+}
+
+#contact-items{
+    margin: 5px;
+    border-style: none;
+}
+
+#contact-items p{
+    font-size: medium;
+}
+
+#contact-items h5{
+    color: rgb(131, 4, 4);
+}
+
+/* .card-items{
+    border-radius: 20px;
+} */
+
+iframe{
+    margin-top: 20px;
+}
+
+/* about css */
+
+.about{
+    background: #F8FAFC;
+}
+
+
+.nav-abt{
+    display: flex;
+}
+
+.about-text{
+    text-align: justify;
+    /* margin: auto 30px; */
+}
+
+.about-text h1{
+    text-align: center;
+}
+
+.mission-vission{
+    display: flex;
+}
+
+.mission-vission p{
+    padding-bottom: 30px;
+}
+
+.about-text h4{
+    color: rgb(131, 4, 4);
+}
+
+.about-text h2{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.about-text h3{
+    text-align: center;
+}
+
+/* Principal Officers */
+/* .principals{
+    height: 100vh;
+} */
+
+.principals h6{
+    color: red;
+}
+
+#principals-cards{
+    margin: 30px auto;
+}
+
+/* Dip.Th/B.Th/M.Div css */
+
+.degree-text{
+    background-color: #F8FAFC;
+}
+
+.degree-text h4{
+    padding-top: 30px;
+    /* padding-bottom: 20px; */
+    text-align: center;
+    color: rgb(131, 4, 4);
+}
+
+.degree-text h5{
+    color: rgb(131, 4, 4);  
+}
+
+.degree-text p{
+    line-height: 40px;
+    text-align: justify;
+}
